@@ -47,6 +47,10 @@
 
 }
 
+.carousel-item {
+  max-height: 36rem;
+}
+
 .card-deck{
   background-color: #f2e1d0;
 }
