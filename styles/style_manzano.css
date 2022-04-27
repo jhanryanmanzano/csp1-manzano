@@ -108,7 +108,7 @@ body{
 
 .card{
   background-color: #333333;
-  image-rendering: fluid;
+  image-rendering: ;
 }
 .album{
  background-color: #adb3b8; 
