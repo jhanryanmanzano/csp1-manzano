@@ -1,4 +1,6 @@
-body{ font-family: 'Open-sans',sans-serif; }
+body{ 
+        font-family: "Lucida Console", "Courier New", monospace;
+ }
 
 
 .bd-placeholder-img{
@@ -20,11 +22,55 @@ body{ font-family: 'Open-sans',sans-serif; }
           font-size: 3.5rem; 
         }
 
+.list {
+  list-style: none;
+  display: inline-block;
+  float:  right;
+}
+.contact {
+  float:  right;
+}
+
+.life{
+  color: #A55B53 ;
+  font-family: 'Open-sans',sans-serif;
+}
+
+.text-list {
+  color: #35637A;
+}
+
+.text-name {
+  color: #C08C4F;
+}
+
+.text-inverted {
+  color: #081831;
+}
+
+
+.text-description{
+  color: #8D602D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .jumbotron {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 0;
-  background-color: #f2e1d0;
+  background-color: #eac180;
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -53,6 +99,7 @@ body{ font-family: 'Open-sans',sans-serif; }
 
 .carousel-item {
   max-height: 36rem;
+  img
 }
 
 .card-deck{
@@ -61,6 +108,7 @@ body{ font-family: 'Open-sans',sans-serif; }
 
 .card{
   background-color: #333333;
+  image-rendering: fluid;
 }
 .album{
  background-color: #adb3b8; 
