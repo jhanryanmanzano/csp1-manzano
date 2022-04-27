@@ -17,18 +17,16 @@
           font-size: 3.5rem; 
         }
 
-
-
 .jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #f2e1d0;
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -44,10 +42,26 @@
   max-width: 40rem;
 }
 
-#card_img{
-  height: 50px;
-  width: 100px;
+.card-img-top{
+    max-height: 36rem;
 
+}
+
+.card-deck{
+  background-color: #f2e1d0;
+}
+
+.card{
+  background-color: #333333;
+}
+.album{
+ background-color: #adb3b8; 
+}
+.card-text{
+  color: whitesmoke;
+}
+.card-title{
+  color: whitesmoke;
 }
 
 footer {
