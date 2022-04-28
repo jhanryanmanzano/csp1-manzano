@@ -17,9 +17,9 @@ body{
 }
 
 @media {
-        min-width: 768px;
+        max-width: 575.98px;
         .bd-placeholder-img-lg 
-          font-size: 3.5rem; 
+         font-size:30px;
         }
 .nav {
   background-color: #36454F;
@@ -40,9 +40,10 @@ body{
 .life{
   color: #A55B53 ;
   font-family: "Lucida Console", Monaco, monospace;
-font-size: 85px;
+font-size: 63px;
 letter-spacing: 2px;
 word-spacing: 2px;
+text-align: center;
 
 font-weight: 700;
 text-decoration: none solid rgb(68, 68, 68);
